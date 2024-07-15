@@ -39,7 +39,7 @@ def configure_sidebar():
     # HTML para a imagem com um link
     html_code = f'''
     <a href="{url}" target="_blank">
-        <img src="data:image/png;base64,{image_base64}" width="300">
+        <img src="data:image/png;base64,{image_base64}" width="280>
     </a>
     '''
     st.sidebar.info(
