@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#5C8374"  # Verde claro
+backgroundColor = "#040D12"  # Preto
+secondaryBackgroundColor = "#395B64"  # Verde escuro
+textColor = "#FAFAFA"  # Branco
+font = "serif"
