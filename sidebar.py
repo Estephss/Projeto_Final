@@ -49,7 +49,10 @@ def configure_sidebar():
 
     st.sidebar.markdown("\n")
 
-    st.sidebar.write("\n [![UFPR](http://www.ufpr.br/portalufpr/wp-content/uploads/2015/11/ufpr_logo.jpg)](https://www.ufpr.br/portalufpr/)")
+    st.sidebar.write(""" <a href="https://www.ufpr.br/portalufpr/">
+        <img src="http://www.ufpr.br/portalufpr/wp-content/uploads/2015/11/ufpr_logo.jpg" width="280" height="auto">
+    </a>
+    """, unsafe_allow_html=True)
 
     st.sidebar.header("Sobre o NDS-BR:")
     st.sidebar.info(""" :closed_book: [CEPPUR-UFPR](tecnologia.ufpr.br/ceppur/estudo-naturalistico-de-direcao-brasileiro/)
